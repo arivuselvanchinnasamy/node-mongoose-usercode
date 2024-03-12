@@ -1,6 +1,6 @@
 import mongoose from 'mongoose';
 
-const mongoURI = "mongodb://app_user:app_password@localhost:27017/nextjsauth?authSource=admin&retryWrites=false";
+const mongoURI = "<your-mongodb-uri>";
 
 const connectDB = async () => {
   try {
